@@ -6,6 +6,14 @@ A `<Doughnut>` component for react-native.
 clone the repository and run npm install.
 ```
 
+##Landsacpe
+
+![Demo](https://github.com/AshokICreate/tekionDoughnutChart/blob/master/images/landscape.png)
+
+##Portrait
+
+![Demo](https://github.com/AshokICreate/tekionDoughnutChart/blob/master/images/portrait.png)
+
 ##Example
 
 ```jsx

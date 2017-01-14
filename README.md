@@ -1,9 +1,14 @@
-Getting Started
+A `<Doughnut>` component for react-native.
 
+##Getting Started
+
+```shell
 clone the repository and run npm install.
+```
 
-Example
+##Example
 
+```jsx
 <Doughnut
             width={width}
             height={height}
@@ -14,8 +19,11 @@ Example
             dimention={"Status"}
             meassure={"Value"}
            />
+```
 
+##propTypes
 
+```jsx
 Doughnut.propTypes = {
   width: React.PropTypes.number.isRequired,
   height: React.PropTypes.number.isRequired,
@@ -26,3 +34,4 @@ Doughnut.propTypes = {
   dimention: React.PropTypes.string.isRequired,
   meassure: React.PropTypes.string.isRequired
 };
+```

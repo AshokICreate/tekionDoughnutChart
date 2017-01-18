@@ -47,7 +47,7 @@ class Doughnut extends React.Component {
     var arc = d3.shape.arc()
       .outerRadius(this.props.doughnutWidth/2)
       .padAngle(.05)
-      .innerRadius(70);
+      .innerRadius(60);
 
     var arcData = arcs[index];
     var path = arc(arcData);
